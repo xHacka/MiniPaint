@@ -38,9 +38,13 @@ body {
 }
 
 .tools-item--active {
-    background-color: orange;
+    background-color: orange;  
     border-radius: 50%; 
     transition: .49s all ease-in;
+}
+
+.tools-item--active-color  {
+    color: white !important;
 }
 
 .tools-item i::after,
