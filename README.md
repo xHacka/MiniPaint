@@ -1,14 +1,14 @@
-﻿# MiniPaint
+# MiniPaint
 
 Simple Paint Application 🦍🎨
 
-### Languages
+#### Languages
 
 - <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 - <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 - <img src ="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 
-### Tools
+#### Tools
 
 - Brush <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/samsung/320/paintbrush_1f58c-fe0f.png" style="width: 1rem;">
 - Eraser <img src="https://www.free-emoticons.com/files/objects-emoticons/12150.png" style="width: 1rem;"> 
@@ -17,9 +17,9 @@ Simple Paint Application 🦍🎨
 - Clear <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/320/wastebasket_1f5d1-fe0f.png" style="width: 1rem;">
 - Size Changer <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/lg/57/increase-font-size-symbol_1f5da.png" style="width: 1rem;">
 - Undo ↩ / Redo ↪
-- Copy 📎 / Save 💾 <img src="" style="width: 2rem;">
+- Copy 📎 / Save 💾
 
-### Colors
+#### Colors
 
 - Predefined Color Pallete
 - Custom Color Selector
