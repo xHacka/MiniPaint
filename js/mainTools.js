@@ -31,7 +31,6 @@ let toolSize = 5
 export function drawStart(e) {
     drawing = true;
     draw(e)
-    e.preventDefault()
 }
 
 export function drawFinish(e) {
@@ -39,10 +38,9 @@ export function drawFinish(e) {
     drawing = false;
     ctx.beginPath()
     saveObj()
-    e.preventDefault()
 }
 
-const tools = ["Brush", "Eraser", "Eyedropper", "Line", "Circle", "Rectangle", "Triangle"]
+const tools = ["Brush", "Eraser", "Eyedropper", "Bucket", "Clear"]
 const use = (tool, event) => eval(`use${tool}(event)`)
 
 export function draw(event) {
@@ -50,13 +48,10 @@ export function draw(event) {
     if (!drawing) return;
 
     // Draw
-    if (tools.includes(tool)) { use(tool, event) }
-
-    //
-    event.preventDefault()
+    if (tools.includes(tool)) { use(tool, event); } 
 }
 
-// Display Border Around Tool (More Verbose)
+// Display Border Around Tool 
 export function displayToolBorder(e) {
     const left = mouseX(e) - (toolSize / 2)
     const top = mouseY(e) + canvas.offsetTop - (toolSize / 2)

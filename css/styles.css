@@ -37,6 +37,12 @@ body {
     padding: 5px;
 }
 
+.tools-item--active {
+    background-color: orange;
+    border-radius: 50%; 
+    transition: .49s all ease-in;
+}
+
 .tools-item i::after,
 .undo-redo i::after,
 .copy-save i::after
