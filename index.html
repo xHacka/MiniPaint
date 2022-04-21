@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini Paint</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<div class="control-panel">
+    <!-- MAIN TOOLS START -->
+    <div class="tools" data-tools="main">
+        <div class="tools-item"><i class="bi bi-brush" data-hover="Brush"></i></div>
+        <div class="tools-item"><i class="bi bi-eraser" data-hover="Eraser"></i></div>
+        <div class="tools-item"><i class="bi bi-paint-bucket" data-hover="Bucket"></i></div>
+        <div class="tools-item"><i class="bi bi-eyedropper" data-hover="Eyedropper"></i></div>
+        <div class="tools-item"><i class="bi bi-recycle" data-hover="Clear"></i></div>
+    </div>
+    <!-- MAIN TOOLS END -->
+    <!-- SIZE SLIDER START -->
+    <div class="size-slider">
+        <label for="size-input">5</label>
+        <input id="size-input" type="range" min="1" max="50" step="1" value="5">
+    </div>
+    <!-- SIZE SLIDER END -->
+    <!-- SHAPE TOOLS START -->
+    <!-- 
+        <div class="tools" data-tools="shapes">
+        <div class="tools-item"><i class="bi bi-slash-lg" data-hover="Line"></i></div>
+        <div class="tools-item"><i class="bi bi-circle" data-hover="Ellipse"></i></div>
+        <div class="tools-item"><i class="bi bi-square" data-hover="Rectangle"></i></div>
+        <div class="tools-item"><i class="bi bi-triangle" data-hover="Triangle"></i></div>
+    </div> 
+    -->
+    <!-- SHAPE TOOLS END -->
+    <!-- COLOR PALETTE START -->
+    <div class="color-palette">
+        <div class="colors">
+            <!-- COLORS -->
+        </div>
+        <div class="custom-color">
+            <label><input type="color"></label>
+        </div>
+    </div>
+    <!-- COLOR PALETTE END -->
+    <!-- UNDO/REDO START -->
+    <div class="undo-redo">
+        <i class="bi bi-arrow-counterclockwise undo" data-hover="Undo"></i>
+        <i class="bi bi-arrow-clockwise redo" data-hover="Redo"></i>
+    </div>
+    <!-- UNDO/REDO END -->
+    <!-- COPY/SAVE START -->
+    <div class="copy-save">
+        <i class="copy bi bi-clipboard" data-hover="Copy"></i>
+        <i class="save bi bi-download" data-hover="Save"></i>
+    </div>
+    <!-- COPY/SAVE END -->
+
+</div>
+<canvas id="canvas"></canvas>
+<div class="tool-hover-display"></div>
+<script src="./js/app.js" type="module"></script>
+</body>
+</html>
