@@ -24,7 +24,7 @@ Simple Paint Application 🦍🎨
 - Predefined Color Pallete
 - Custom Color Selector
 
-##### Future Updates
+# Future Updates
 
 - Shape Tools (Possibly)
 - ...
